@@ -5,6 +5,7 @@ Target (Target 1), 0x0000 // Tools: 'MCS-51'
 
 Group (system)
 Group (user)
+Group (document)
 
 File 1,5,<.\config.inc><config.inc>
 File 1,5,<.\Garfield.inc><Garfield.inc>
@@ -18,6 +19,8 @@ File 2,2,<.\task4.asm><task4.asm>
 File 2,2,<.\task5.asm><task5.asm>
 File 2,2,<.\task6.asm><task6.asm>
 File 2,2,<.\task7.asm><task7.asm>
+File 3,5,<.\README.md><README.md>
+File 3,5,<.\LICENSE><LICENSE>
 
 
 Options 1,0,0  // Target 'Target 1'

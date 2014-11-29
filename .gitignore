@@ -1,0 +1,13 @@
+*.hex
+*.OBJ
+*.LST
+*.swp
+*.lnp
+*.M51
+*.Opt
+*.plg
+*.Bak
+
+
+Garfield_51OS
+*.docx
