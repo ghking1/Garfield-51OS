@@ -1,0 +1,112 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (Target 1), 0x0000 // Tools: 'MCS-51'
+
+Group (system)
+Group (user)
+
+File 1,5,<.\config.inc><config.inc>
+File 1,5,<.\Garfield.inc><Garfield.inc>
+File 1,2,<.\kernel.asm><kernel.asm>
+File 1,2,<.\syscall.asm><syscall.asm>
+File 2,2,<.\task0.asm><task0.asm>
+File 2,2,<.\task1.asm><task1.asm>
+File 2,2,<.\task2.asm><task2.asm>
+File 2,2,<.\task3.asm><task3.asm>
+File 2,2,<.\task4.asm><task4.asm>
+File 2,2,<.\task5.asm><task5.asm>
+File 2,2,<.\task6.asm><task6.asm>
+File 2,2,<.\task7.asm><task7.asm>
+
+
+Options 1,0,0  // Target 'Target 1'
+ Device (89C52)
+ Vendor (Atmel)
+ Cpu (IRAM(0 - 0xFF) IROM(0 - 0x1FFF) CLOCK(24000000))
+ Rgf (AT89X52.H)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (ÿAtmel\)
+ OrgReg (ÿAtmel\)
+ TgStat=0
+ OutDir (.\)
+ OutName (Garfield_51OS)
+ GenApp=1
+ GenLib=0
+ GenHex=1
+ Debug=1
+ Browse=1
+ LstDir (.\)
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ MODEL5=0
+ RTOS5=0
+ ROMSZ5=2
+ DHOLD5=0
+ XHOLD5=0
+ T51FL=80
+ CBANKS5=0
+ XBANKS5=0
+ RCB51 { 0,0,0,0,0,0,0,1,0 }
+ RXB51 { 0,0,0,0,0,0,0,0,0 }
+ OCM51 { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCR51 { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IRO51 { 1,0,0,0,0,0,32,0,0 }
+ IRA51 { 0,0,0,0,0,0,1,0,0 }
+ XRA51 { 0,0,0,0,0,0,0,0,0 }
+ C51FL=21630224
+ C51VA=0
+ C51MSC ()
+ C51DEF ()
+ C51UDF ()
+ INCC5 ()
+ AX51FL=4
+ AX51MSC ()
+ AX51SET ()
+ AX51RST ()
+ INCA5 ()
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ BankNo=65535
+ LX51FL=292
+ LX51OVL ()
+ LX51MSC ()
+ LX51DWN ()
+ LX51LFI ()
+ LX51ASN ()
+ LX51RES ()
+ LX51CCL ()
+ LX51UCL ()
+ LX51CSC ()
+ LX51UCS ()
+ LX51COB ()
+ LX51XDB ()
+ LX51PDB ()
+ LX51BIB ()
+ LX51DAB ()
+ LX51IDB ()
+ LX51PRC ()
+ LX51STK ()
+ LX51COS ()
+ LX51XDS ()
+ LX51BIS ()
+ LX51DAS ()
+ LX51IDS ()
+  OPTDL (S8051.DLL)()(DP51.DLL)(-p52)(S8051.DLL)()(TP51.DLL)(-p52)
+  OPTDBG 509,0,()()()()()()()()()() ()()()()
+EndOpt
+
